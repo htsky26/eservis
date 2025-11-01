@@ -1,25 +1,6 @@
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   return (
     <section id="contatti" className="py-32 px-6 bg-dark-bg-secondary">
@@ -83,80 +64,6 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-dark-bg border border-dark-bg-tertiary rounded-2xl p-8">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-300">
-                  Nome Completo
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-dark-bg-secondary border border-dark-bg-tertiary rounded-lg focus:outline-none focus:border-primary-orange transition-colors duration-300 text-white"
-                  placeholder="Mario Rossi"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2 text-gray-300">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-dark-bg-secondary border border-dark-bg-tertiary rounded-lg focus:outline-none focus:border-primary-orange transition-colors duration-300 text-white"
-                  placeholder="mario.rossi@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium mb-2 text-gray-300">
-                  Telefono
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-dark-bg-secondary border border-dark-bg-tertiary rounded-lg focus:outline-none focus:border-primary-orange transition-colors duration-300 text-white"
-                  placeholder="+39 340 123 4567"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2 text-gray-300">
-                  Messaggio
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-3 bg-dark-bg-secondary border border-dark-bg-tertiary rounded-lg focus:outline-none focus:border-primary-orange transition-colors duration-300 text-white resize-none"
-                  placeholder="Descrivi il tuo progetto o le tue esigenze..."
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-primary-orange text-dark-bg font-semibold rounded-lg hover:bg-primary-orange-light transition-all duration-300 hover:scale-105"
-              >
-                Invia Richiesta
-                <Send size={20} />
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
