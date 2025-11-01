@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 export default function Contact() {
 
@@ -40,27 +40,8 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
-                <MapPin className="text-primary-orange" size={24} />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2 text-white">Sede</h3>
-                <p className="text-gray-400">
-                  Via dell'Audio Professionale, 1<br />
-                  20100 Milano, Italia
-                </p>
-              </div>
-            </div>
-
             <div className="pt-8">
-              <h3 className="text-2xl font-bold mb-4 text-white">Orari di Apertura</h3>
-              <div className="space-y-2 text-gray-400">
-                <p>Lunedì - Venerdì: 9:00 - 18:00</p>
-                <p>Sabato: 9:00 - 13:00</p>
-                <p>Domenica: Chiuso</p>
-                <p className="text-primary-orange font-semibold pt-2">Supporto tecnico eventi: 24/7</p>
-              </div>
+              <p className="text-primary-orange font-semibold">Supporto tecnico eventi: 24/7</p>
             </div>
           </div>
 
