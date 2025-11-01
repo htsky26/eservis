@@ -6,7 +6,8 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-primary-orange mb-4">e' SERVIS</h3>
             <p className="text-gray-400 leading-relaxed">
-              Service audio professionale per eventi live e installazioni permanenti. </p> Competenza tecnica e soluzioni su misura.
+              Service audio professionale per eventi live e installazioni permanenti. </p> 
+              Competenza tecnica e soluzioni su misura.
             </p>
           </div>
 
