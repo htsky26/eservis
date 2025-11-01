@@ -35,7 +35,7 @@ export default function Team() {
             </p>
 
             <p className="text-lg text-gray-400 leading-relaxed mb-6">
-              Il nostro approccio è <span className="text-primary-orange font-semibold">diretto e personalizzato</span>. Non subappaltiamo, non deleghiamo. Siamo noi a seguire il tuo progetto dall'inizio alla fine, garantendo massima qualità, controllo e un rapporto di fiducia costruito sulla competenza tecnica e sulla passione per l'audio professionale.
+              Il nostro approccio è <span className="text-primary-orange font-semibold">diretto e personalizzato</span>. Poiché non subappaltiamo né deleghiamo, garantiamo un controllo totale su ogni aspetto del tuo progetto. Siamo noi a seguirti personalmente dall'inizio alla fine, assicurando la massima qualità tecnica e costruendo un rapporto di fiducia basato sulla competenza e la passione.
             </p>
 
             <p className="text-lg text-gray-400 leading-relaxed">
