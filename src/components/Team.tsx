@@ -39,7 +39,7 @@ export default function Team() {
             </p>
 
             <p className="text-lg text-gray-400 leading-relaxed">
-              Che si tratti di un evento live, di un'installazione complessa o di una consulenza specialistica, con noi hai un <span className="text-white font-semibold">unico punto di riferimento</span> che si prende cura di ogni dettaglio.
+              Che si tratti di un evento live <span className="text-primary-orange font-semibold"> indoor, outdoor</span> o di una consulenza specialistica, con noi hai un <span className="text-white font-semibold">unico punto di riferimento</span> che si prende cura di ogni dettaglio.
             </p>
           </div>
 
