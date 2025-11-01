@@ -31,7 +31,7 @@ export default function Team() {
             </h3>
 
             <p className="text-lg text-gray-400 leading-relaxed mb-6">
-              <span className="text-primary-orange font-semibold">e' SERVIS</span> è il risultato dell'unione di due professionisti del settore audio con oltre 15 anni di esperienza combinata. Ci occupiamo personalmente di ogni fase del progetto: dalla consulenza iniziale alla progettazione, dall'installazione alla manutenzione.
+              <span className="text-primary-orange font-semibold">e' SERVIS</span> è il risultato dell'unione di tre professionisti del settore audio con oltre 2 anni di esperienza combinata. Ci occupiamo personalmente di ogni fase del progetto: dalla consulenza iniziale alla progettazione, dall'installazione alla manutenzione.
             </p>
 
             <p className="text-lg text-gray-400 leading-relaxed mb-6">
