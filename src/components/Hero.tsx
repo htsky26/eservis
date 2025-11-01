@@ -43,8 +43,8 @@ export default function Hero() {
 
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
-            <div className="text-4xl md:text-5xl font-bold text-primary-orange">2+</div>
-            <div className="text-gray-400">Anni di Esperienza</div>
+            <div className="text-4xl md:text-5xl font-bold text-primary-orange">15+</div>
+            <div className="text-gray-400">Anni di Esperienza Combinata</div>
           </div>
           <div className="space-y-2">
             <div className="text-4xl md:text-5xl font-bold text-primary-orange">50+</div>
