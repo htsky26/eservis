@@ -52,7 +52,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Contatti</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Via dell'Audio Professionale, 1</li>
-              <li>20100 Milano, Italia</li>
+              <li>47121 Forlì, Italia</li>
               <li className="pt-2">
                 <a href="tel:+393401234567" className="hover:text-primary-orange transition-colors duration-300">
                   +39 340 123 4567
