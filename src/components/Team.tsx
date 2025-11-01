@@ -31,7 +31,7 @@ export default function Team() {
             </h3>
 
             <p className="text-lg text-gray-400 leading-relaxed mb-6">
-              <span className="text-primary-orange font-semibold">e' SERVIS</span> è il risultato dell'unione di tre professionisti del settore audio con oltre 15 anni di esperienza combinata. Ci occupiamo personalmente di ogni fase del progetto: dalla consulenza iniziale alla progettazione, dall'installazione alla manutenzione.
+              <span className="text-primary-orange font-semibold">e' SERVIS</span> è il risultato dell'unione di tre professionisti del settore audio con oltre 15 anni di esperienza combinata. Siamo il tuo partner tecnico audio esclusivo per eventi live di piccola e media dimensione in tutta la Romagna (dalla costa all'entroterra). Operativi 365 giorni l'anno.
             </p>
 
             <p className="text-lg text-gray-400 leading-relaxed mb-6">
