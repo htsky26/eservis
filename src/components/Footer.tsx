@@ -57,7 +57,6 @@ export default function Footer() {
               <li>47121 Forlì, Italia</li>
               <li className="pt-2">
                 <a href="tel:+393401234567" className="hover:text-primary-orange transition-colors duration-300">
-                  +39 340 123 4567
                 </a>
               </li>
               <li>
