@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export default function Contact() {
 
@@ -14,37 +14,18 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <div className="space-y-8">
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
-                <Phone className="text-primary-orange" size={24} />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2 text-white">Telefono</h3>
-                <a href="tel:+393401234567" className="text-gray-400 hover:text-primary-orange transition-colors duration-300">
-                  +39 340 123 4567
-                </a>
-              </div>
+        <div className="flex justify-center">
+          <div className="flex items-start gap-4">
+            <div className="flex-shrink-0 w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
+              <Mail className="text-primary-orange" size={24} />
             </div>
-
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-primary-orange/10 rounded-lg flex items-center justify-center">
-                <Mail className="text-primary-orange" size={24} />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2 text-white">Email</h3>
-                <a href="mailto:info@eservis.it" className="text-gray-400 hover:text-primary-orange transition-colors duration-300">
-                  info@eservis.it
-                </a>
-              </div>
-            </div>
-
-            <div className="pt-8">
-              <p className="text-primary-orange font-semibold">Supporto tecnico eventi: 24/7</p>
+            <div>
+              <h3 className="text-xl font-semibold mb-2 text-white">Email</h3>
+              <a href="mailto:info@eservis.it" className="text-gray-400 hover:text-primary-orange transition-colors duration-300">
+                info@eservis.it
+              </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
