@@ -3,14 +3,14 @@ import { Music, Building2, Package, Lightbulb } from 'lucide-react';
 const services = [
   {
     icon: Music,
-    title: 'Eventi Live',
-    description: 'Service audio completo per concerti, festival, spettacoli teatrali e eventi corporate. Dalla progettazione acustica all\'esecuzione tecnica.',
+    title: 'Eventi Live Indoor',
+    description: 'Service audio completo per concerti, spettacoli teatrali ed eventi corporate in ambienti chiusi. Acustica controllata e resa sonora impeccabile.',
     image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     icon: Building2,
-    title: 'Installazioni Fisse',
-    description: 'Sistemi audio permanenti per teatri, auditorium, sale conferenze, ristoranti e spazi commerciali. Soluzioni integrate e scalabili.',
+    title: 'Eventi Live Outdoor',
+    description: 'Sistemi audio professionali per festival, concerti all\'aperto e manifestazioni esterne. Gestione dell\'acustica in spazi aperti con soluzioni innovative.',
     image: 'https://images.pexels.com/photos/7095/people-coffee-notes-tea.jpg?auto=compress&cs=tinysrgb&w=800',
   },
   {
