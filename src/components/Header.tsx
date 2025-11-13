@@ -16,9 +16,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-dark-bg/80 backdrop-blur-lg border-b border-dark-bg-tertiary">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary-orange tracking-tight font-display">
-            e' <span className="uppercase">servis</span>
-          </div>
+          <img src="/e servis arancio.png" alt="e' SERVIS" className="h-10" />
 
           <div className="hidden md:flex items-center gap-8">
             <button
