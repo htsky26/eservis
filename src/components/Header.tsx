@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-dark-bg/80 backdrop-blur-lg border-b border-dark-bg-tertiary">
-      <nav className="container mx-auto px-9 py-1">
+      <nav className="container mx-auto px-0 py-1">
         <div className="flex items-center justify-between">
           <img src={Logo}  alt="e' SERVIS" className="h-20 w-auto" />
 
