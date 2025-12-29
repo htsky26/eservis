@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import Logo from '/home/project/public/e-servis-arancio.png';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
