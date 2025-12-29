@@ -16,7 +16,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-dark-bg/80 backdrop-blur-lg border-b border-dark-bg-tertiary">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <img src="/e servis arancio.png" alt="e' SERVIS" className="h-10" />
+          <img src="/home/project/public/eservis logo 01112025_REV2.png" alt="e' SERVIS" className="h-10" />
 
           <div className="hidden md:flex items-center gap-8">
             <button
