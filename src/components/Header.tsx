@@ -19,7 +19,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <img src={Logo}  alt="e' SERVIS" className="h-20 w-auto" />
 
-          <div className="hidden md:flex items-center gap-8 right 30">
+          <div className="hidden md:flex items-center gap-8 right 300">
             <button
               onClick={() => scrollToSection('home')}
               className="text-gray-300 hover:text-primary-orange transition-colors duration-300"
