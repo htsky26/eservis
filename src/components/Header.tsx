@@ -15,9 +15,9 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-dark-bg/80 backdrop-blur-lg border-b border-dark-bg-tertiary">
-      <nav className="container mx-auto px-0 py-1">
+      <nav className="mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-center justify-between">
-          <img src={Logo}  alt="e' SERVIS" className="h-20 w-auto" />
+          <img src={Logo}  alt="e' SERVIS" className="h-40 w-auto" />
 
           <div className="hidden md:flex items-center gap-8">
             <button
@@ -47,7 +47,7 @@ export default function Header() {
           </div>
 
           <button
-            className="md:hidden text-primary-orange"
+            className="md:hidden p-2 text-primary-orange hover:bg-dark-bg-secondary rounded-lg transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -55,28 +55,28 @@ export default function Header() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 space-y-4 animate-fade-in">
+          <div className="md:hidden mt-4 pb-4 px-4 space-y-3 animate-fade-in">
             <button
               onClick={() => scrollToSection('home')}
-              className="block w-full text-left text-gray-300 hover:text-primary-orange transition-colors duration-300"
+              className="block w-full text-left py-3 px-3 text-gray-300 hover:text-primary-orange hover:bg-dark-bg-secondary rounded-lg transition-colors duration-300"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection('servizi')}
-              className="block w-full text-left text-gray-300 hover:text-primary-orange transition-colors duration-300"
+              className="block w-full text-left py-3 px-3 text-gray-300 hover:text-primary-orange hover:bg-dark-bg-secondary rounded-lg transition-colors duration-300"
             >
               Servizi
             </button>
             <button
               onClick={() => scrollToSection('team')}
-              className="block w-full text-left text-gray-300 hover:text-primary-orange transition-colors duration-300"
+              className="block w-full text-left py-3 px-3 text-gray-300 hover:text-primary-orange hover:bg-dark-bg-secondary rounded-lg transition-colors duration-300"
             >
               Chi Siamo
             </button>
             <button
               onClick={() => scrollToSection('contatti')}
-              className="block w-full text-left px-6 py-2.5 bg-primary-orange text-dark-bg font-medium rounded-full hover:bg-primary-orange-light transition-all duration-300"
+              className="block w-full text-left py-3 px-3 bg-primary-orange text-dark-bg font-medium rounded-lg hover:bg-primary-orange-light transition-all duration-300"
             >
               Contatti
             </button>
